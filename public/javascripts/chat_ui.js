@@ -35,12 +35,12 @@ function processUserInput() {
 var theUserButton = document.querySelector('#change-user');
 theUserButton.onclick = function() {
 	setUserName()
-}
+};
 
 var theRoomButton = document.querySelector('#change-room');
 theRoomButton.onclick = function() {
 	changeRoom()
-}
+};
 
 function changeRoom() {
 	var currentRoom = prompt('Which room do you want to create or join?');
